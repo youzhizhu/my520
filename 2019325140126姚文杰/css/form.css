@@ -1,0 +1,96 @@
+/* CSS Document */
+.box7{
+	/*position:relative;
+	top:100px;
+	right:10px;*/
+	width: 400px;
+    height: 210px;
+    /*border: 1px solid #03F;*/
+	float:right;
+	margin-top:50px;
+	margin-right:10px;
+	
+}
+.bao{
+	width:450px;
+    height: 350px;
+	border-radius:20px 0 20px 0;
+	border:#FFF;
+	float:right;
+	margin-top:100px;
+	margin-right:10px;
+	background-color:rgb(255,255,255,0.5);
+}
+.che{
+	width:450px;
+    height: 250px;
+	border-radius:20px 0 20px 0;
+	float:left;
+	/*border: 1px solid #000;*/
+	margin-top:1px;
+	margin-right:10px;
+}
+.che li{
+	font-size:38px;
+	font-weight:bold;
+}
+
+.gwc{
+	width: 1000px;	
+	height: 270px;
+	margin: 0 auto;
+}
+.gt{
+    width: 1000px;
+    height: 350px;
+	margin:0 auto 10px;
+    /*border: 1px solid #F00;*/
+	background-image:url(../gouwuche/images/1.png)
+}
+.jxxg{
+	width: 380px;
+	height: 50px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #CCC;
+	margin-left: 0 auto;
+	margin-top: 40px;
+	color: #0066CC;
+	background-image: url(../gouwuche/images/2.png);
+	/*margin: 50px auto;*/
+	border-radius: 5px;
+}
+	
+.row{
+	width:390px;
+    height:40px;
+	/*border:1px green solid;*/
+}
+.row label{
+	width: 90px;
+	height: 35px;
+	font-size: 20px;
+	color: #000;
+	background-color: #FFF;
+	float: left;
+	text-align: center;
+	line-height: 35px;
+	border-radius:20px 0 20px 0;
+}
+
+.row .input{
+	width: 240px;
+	height: 35px;
+	/*color: #000;*/
+	border: 1px solid #000;
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+.row .btn{
+	width: 90px;
+	height: 40px;
+	background-color: #FC6;
+	font-size: 18px;
+	border-radius:20px 20px 20px 20px;
+}

@@ -1,0 +1,409 @@
+header{
+    width: auto;
+    height: 100px;
+	margin:0 auto ;
+    /*border: 1px solid #0F9;*/
+}
+.banner{
+    width: 1000px;
+    height: 800px;
+	margin:0 auto 10px;
+    border: 1px solid #F00;
+}
+.box3{
+    width: auto;
+    height: auto;
+	margin:0 auto 1px;
+   /* border: 1px solid #00F;*/
+}
+
+.box4{
+    width: auto;
+    height: auto;
+	margin:0 auto 10px;
+   /* border: 1px solid #CF3;*/
+}
+
+main{
+    width: auto;
+    height: auto;
+	margin:0 auto 0px;
+	/*border: 1px solid #000;*/
+}
+.box11{
+    width: 1000px;
+    height: auto;
+	margin:0 auto 0px;
+	border: 1px solid #000;
+}
+.box6{
+    width: 1000px;
+    height: 400px;
+	margin:0 auto 10px;
+    border: 1px solid #F00;
+}
+
+.box9{
+    width: 1000px;
+    height: 600px;
+	margin:0 auto 10px;
+    /*border: 1px solid #000;*/
+	/*background-image:url(../test1/images/weiding.png);
+	background-size:cover; */
+}
+
+.box10{
+    width: auto;
+    height: 700px;
+	margin:0 auto 0px;
+    /*border: 1px solid #F33;*/
+	background-image:url(../mebership/images/bj.png);
+	background-size:cover;
+	}
+
+*{
+	padding: 0px;
+	margin: 0px;
+    list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.top_logo{
+	height: 100px;
+	width: auto;
+	background-color: #212121;
+}
+.top_logo_left{
+	height: 100px;
+	width: 300px;
+	float: left;
+}
+.logo_img{
+	padding-top: 10px;
+	padding-left:200px ;
+}
+.top_logo_right{
+	height: 100px;
+	width: auto;
+	padding-right:100px;
+	float: right;
+}
+.top_nev input{
+	width: 100px;
+	height: 30px;
+	border-radius: 20px;
+	border: none;
+	background-color: #000000;
+	color: white;
+	text-align: center;
+}
+.top_nev>li{
+	width: 120px;
+	height: 100px;
+	float: left;
+	font-size: 15px;
+	line-height: 100px;
+	text-align: center;
+	color: white;
+}
+.top_nev>li:hover{
+	background-color: dimgray;
+	color: #F4A723;
+}
+/*nav*/
+nav{
+	width: 1000px;
+	height: 80px;
+	margin:0 auto;
+	/*border: 1px solid #C39;*/
+}
+.nav_list{
+    padding: 20px 0px 0px 70px;
+}
+.nav_list>li{
+	width: 140px;
+	height: 80px;
+	color: #666666;
+	float: left;
+	font-size: 15px;
+	text-align: center;
+	
+}
+.nav_list>li:hover{
+	color: black;
+}
+.banner>img{
+	width:auto;
+}
+
+.pop_arriv{
+	height: 150px;
+	font-size: 20px;
+	text-align: center;
+	color: #212121;
+}
+.hr{
+	width: 50px;
+	height: 5px;
+	background-color: #90837A;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+.block{
+	padding-top: 50px;
+}
+/*单品列表*/
+.pop_list{
+	width: 700px;
+	height: 474px;
+	margin: 0 auto;
+}
+.list1{
+	width: 250px;
+	height: 400px;
+}
+.pop_list_left{
+	float: left;
+	text-align: center;
+	color: #8D847D;
+	font-size: 13px;
+}
+.pop_list_right{
+	width: 400px;
+	float: right;
+}
+.list{
+	width: 180px;
+	font-size: 13px;
+	color: #8D847D;
+	text-align: center;
+	float: right;
+	padding: 0 5px 5px 5px;
+}
+.list img{
+	width: inherit;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+.list img:hover{
+	transform: scale(1.4);
+			}
+.more{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border: 2px solid #FFAF4C;
+	margin: 50px auto;
+	border-radius: 30px;
+}
+.buy{
+	width: 100px;
+	height: 300px;
+	/*border: 1px solid #0F9;*/
+	padding-left:800px;
+	/*border: 2px solid #FFAF4C;
+	margin: 0px auto;
+	border-radius: 30px;
+	padding-left:600px;*/
+}
+.more:hover{
+	background-color:#FFAF4C ;
+	color: white;
+}
+.sofo{
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;
+}
+.sofo_img{
+	float: left;
+}
+.sofo_statement{
+	padding-top: 100px;
+	float: right;
+	padding-right:210px;
+	text-align: center;
+	font-size: 15px;
+	color: #CBC6C2;
+	line-height: 15px;
+}
+.xiangqing{
+	padding-top:1px;
+	float: right;
+	padding-right:210px;
+	text-align: center;
+	font-size: 15px;
+	color: #000;
+	line-height: 15px;
+}
+.mai{
+	width: 100px;
+    height: 100px;
+    /*border: 1px solid #03F;*/
+	float:right;
+	margin-top:10px;
+	margin-right:200px;
+}
+	
+.sofo_statement p:nth-of-type(5){color: #666666;}
+.sofo_statement p:nth-of-type(4){color: #666666;}
+.sofo_statement p:nth-of-type(3){color: #666666;}
+
+.newproductList{
+	width: 1000px;	
+	height: 600px;
+	margin: 0 auto;
+}
+.newproductList ul li{
+	float: left;
+	padding-left: 40px;
+	text-align: center;
+	font-size: 15px;
+	color:#B0A7A2 ;
+}
+.newproductList ul li>img{
+	width: 200px;
+	height: 230px;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+.newproductList ul li>img:hover{
+	transform: scale(1.4);
+			}
+.brand_induct{
+	width: 700px;
+	height: 400px;
+	margin: 0 auto;
+}
+.brand_induct_left{
+	float: left;
+	color:#B0A7A2;
+	text-align: center;
+}
+.brand_induct_right{
+	float: right;
+}
+
+.brand_induct_left p:nth-of-type(1){font-size: 18px;}
+.brand_induct_left p:nth-of-type(2){font-weight: 600;}
+.brand_induct_left p:nth-of-type(3){font-size: 20px;}
+.brand_induct_left p:nth-of-type(4){font-size: 15px;}
+.brand_induct_left p:nth-of-type(5){font-size: 15px;}
+
+footer{
+	width: auto;
+	height: 250px;
+
+	background-color: #212121;
+}
+.content{
+	width: 700px;
+	height: 230px;
+	margin: 0 auto;
+}
+.content ul{
+	float: left;
+	font-size: 10px;
+	padding:50px 0 0 45px;
+	line-height: 25px;
+	color: #5B5B5B;
+}
+	#banner
+	{
+		width:1000px;
+		margin:0px auto;
+		height:800px;
+		overflow:hidden;
+		z-index:-1;
+	}
+	#btn
+	{	display: inline;
+		width:110px;
+		hegiht:18px;
+		float:left;
+		margin:-30px 0px 0px 450px;
+		position:absolute;
+		z-index:1;
+	}
+	#btn a
+	{
+		color:#36f;
+		font:700 11px "Arial";
+		background:url(images/ibbtn.gif) no-repeat;
+		float:left;
+		width:18px;
+		height:18px;
+		line-height:18px;
+		text-align:center;
+		text-decoration:none;
+		margin-left:5px;
+	}
+	#btn a.activeSlide
+	{	
+		color:#fff;
+		background:url(images/ibhbtn.gif) no-repeat;
+	}
+	#btn a:hover
+	{	
+		color:#fff;
+		background:url(images/ibhbtn.gif) no-repeat;
+	}
+	
+	#t{
+		widows:1000px;
+		height:20px;
+		margin:0 auto ;
+     /*   border: 1px solid #F33;*/
+		}
+		.showtime{
+		width:500px;
+		height:30px;
+		/*border:1px solid red;*/
+		color: #000;
+		}
+
+
+
+
+
+
+*{
+				padding: 0;
+				margin: 0;
+			}
+			.box{
+				
+				margin: 100px;
+				border: 1px solid #fff;
+				position: relative;
+			}
+			.small{
+				position: relative;
+				width: 350px;
+				height: 350px;
+				float:left;
+			}
+			.mask{
+				width: 175px;
+				height: 175px;
+				background: rgba(255, 255, 0, 0.4);
+				position: absolute;
+				left: 0;
+				top: 0;
+				display: none;
+				cursor: move;
+			}
+			.big{
+				width: 400px;
+				height: 400px;
+				border: 1px solid #fff;
+				position: absolute;
+				top: 0;
+				left: 360px;
+				overflow: hidden;
+				display: none;
+			}
